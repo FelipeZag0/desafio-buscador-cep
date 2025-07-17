@@ -20,11 +20,11 @@ Este projeto é um aplicativo Java que permite consultar informações de endere
 1. Clone o repositório ou baixe os arquivos fonte
 2. Compile as classes:
    ```bash
-   javac -d bin src/*.java
+   javac -d bin -cp "lib/gson-2.13.1.jar" src/*.java
    ```
 3. Execute o programa:
    ```bash
-   java -cp bin Principal
+   java -cp "bin:lib/gson-2.13.1.jar" Principal
    ```
 
 ## Como Usar o Projeto
