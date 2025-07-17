@@ -9,15 +9,25 @@ public class Principal {
         System.out.println("Digite um número de CEP para consulta:");
         var cep = leitura.nextLine();
 
+        // Corrigido isBlack para isBlank
+        if (cep.isBlank()) {
+            System.out.println("CEP não pode ser vazio.");
+            return;  // Substituído continue por return
+        }
+
         try {
             Endereco novoEndereco = consultaCep.buscaEndereco(cep);
             System.out.println(novoEndereco);
             GeradorDeArquivo gerador = new GeradorDeArquivo();
             gerador.salvaJson(novoEndereco);
-        } catch (RuntimeException | IOException e) {
-            System.out.println(e.getMessage());
-            System.out.println("Finalizando a aplicação");
+        } catch (RuntimeException e) {
+            System.out.println("Erro: " + e.getMessage());
+        } catch (IOException e) {
+            System.out.println("Erro ao salvar arquivo: " + e.getMessage());
+        } finally {
+            System.out.println("\nAplicação finalizada");
         }
 
+        leitura.close();  // Movido para dentro do método main
     }
 }
