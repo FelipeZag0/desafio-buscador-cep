@@ -20,11 +20,11 @@ Este projeto é um aplicativo Java que permite consultar informações de endere
 1. Clone o repositório ou baixe os arquivos fonte
 2. Compile as classes:
    ```bash
-   javac -d bin src/*.java
+   javac -d bin -cp "lib/gson-2.13.1.jar" src/*.java
    ```
 3. Execute o programa:
    ```bash
-   java -cp bin Principal
+   java -cp "bin:lib/gson-2.13.1.jar" Principal
    ```
 
 ## Como Usar o Projeto
@@ -46,14 +46,4 @@ Exemplo de arquivo JSON gerado (`cep_01001000.json`):
   "localidade": "São Paulo",
   "uf": "SP"
 }
-```
-
-## Estrutura do Projeto
-
-```
-src/
-├── Endereco.java          - Modelo de dados para representação de endereço
-├── ConsultaCep.java       - Serviço de consulta à API ViaCEP
-├── Principal.java         - Classe principal com interface de usuário
-└── GeradorDeArquivo.java  - Utilitário para gravação de arquivos JSON
 ```

@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f662b10f-ca33-4f28-8b9a-e7e6c92fdcd7" name="Changes" comment="fix: Converte Endereco para classe tradicional para compatibilidade com Gson&#10;&gt; - Remove uso de record para resolver desserialização&#10;&gt; - Implementa getters/setters e construtor vazio&#10;&gt; - Corrige fluxo de controle em Principal.java&#10;&gt; - Resolve erro 'Can not set final field'">
+    <list default="true" id="f662b10f-ca33-4f28-8b9a-e7e6c92fdcd7" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ConsultaCep.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ConsultaCep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Endereco.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Endereco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/GeradorDeArquivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GeradorDeArquivo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Principal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gson-2.8.9.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +65,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -90,12 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1752762706757</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1752764003880</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752764003880</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix: Converte Endereco para classe tradicional para compatibilidade com Gson&#10;&gt; - Remove uso de record para resolver desserialização&#10;&gt; - Implementa getters/setters e construtor vazio&#10;&gt; - Corrige fluxo de controle em Principal.java&#10;&gt; - Resolve erro 'Can not set final field'" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: Converte Endereco para classe tradicional para compatibilidade com Gson&#10;&gt; - Remove uso de record para resolver desserialização&#10;&gt; - Implementa getters/setters e construtor vazio&#10;&gt; - Corrige fluxo de controle em Principal.java&#10;&gt; - Resolve erro 'Can not set final field'" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
